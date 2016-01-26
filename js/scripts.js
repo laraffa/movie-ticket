@@ -9,8 +9,14 @@ TicketPrice.prototype.price = function() {
     return 8;
   }
 
+  else if ((this.age === "adult") && (this.times === "5:00")) {
+    return 10;
+  }
 
-else if ((this.age === "adult") && (this.times === "5:00")) {
-  return 10;
-}
+  else if ((this.age === "senior") && (this.times === "12:00")) {
+    return 5;
+  }
+  else if ((this.age === "senior") && (this.times === "5:00")) {
+    return 8;
+  }
 }
