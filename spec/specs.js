@@ -1,7 +1,11 @@
-describe("Age", function(){
-  it("returns a price based on the given properties", function() {
-    var agePrice = new Age("40");
-    expect(agePrice.under65).to.equal("$10");
-    expect(agePrice.over65).to.equal("$8");
+describe('ticketPrice', function() {
+  it('will create a new price with the following properties', function(){
+    var testPrice = new ticketPrice("time", "age");
+    expect(testPrice.times).to.eql([]);
+    expect(testPrice.age).to.equal("adult");
+  });
+  it("adds the age method to the ticket", function() {
+    var testAge = new Age ("adult", "senior");
+    expect(testAge.age()).to.equal("adult");
   });
 });
