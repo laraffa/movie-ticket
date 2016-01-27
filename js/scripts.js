@@ -20,3 +20,5 @@ TicketPrice.prototype.price = function() {
     return 8;
   }
 }
+
+$('.dropdown-toggle').dropdown()

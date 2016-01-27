@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" src="js/jquery-1.12.0.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>Welcome to the Movies!</title>
+  </head>
+  <body>
+
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Welcome to the Movies!</h1>
+    <p>
+      Select your age, movie you want to see, and the time you want to see it from the menus below.
+    </p>
+  </div>
+</div>
+<div class="container">
+
+<div class="row">
+  <div class="col-sm-4">
+
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuMovie" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        Movies
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li><option value=0>Lion King</option></li>
+        <li><option value=0>Star Wars</option></li>
+        <li><option value=0>Pulp Fiction</option></li>
+        <li><option value=0>Delta Force</option></li>
+        <li><option value=0>Love Story</option></li>
+      </ul>
+    </div>
+
+  </div>
+
+<div class="col-sm-4">
+
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuAge" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Age
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li><option value=1>Adult (under 65)</option></li>
+      <li><option value=10>Senior</option></li>
+    </ul>
+  </div>
+</div>
+
+<div class="col-sm-4">
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuTime" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Times
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li><option value=1>12:00</option></li>
+      <li><option value=1>3:00</option></li>
+      <li role="separator" class="divider"></li>
+      <li><option value=2>5:00</option></li>
+      <li><option value=2>7:00</option></li>
+    </ul>
+  </div>
+
+</div>
+</div>
+
+</div>
+  </body>
+</html>
